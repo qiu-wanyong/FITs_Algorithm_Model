@@ -7,6 +7,7 @@ Stuttering is a complicated language disorder. The most common  form of stutteri
 #### Index Terms— Stuttering Monitoring, Federated Learning, Computer Audition, Healthcare
 
 ![](/figures/FL.jpg)
+
 Fig. 1. Basic structure of the proposed privacy-preserving FL framework.
  
 ## Main contributions:
@@ -19,6 +20,7 @@ Fig. 1. Basic structure of the proposed privacy-preserving FL framework.
   * Federated Learning with XGBoost (Homogeneous SecureBoost)
   
  ![](/figures/results.jpg)
+ 
  Fig. 2. Model performance variation (UAR and UF1 in [%]) between centralised learning and federated learning for multiclassification of stuttering data.
  
 Table 2. Optimal values for the depth and number of trees; summary of experimental results (in [%]).
@@ -33,11 +35,14 @@ Table 2. Optimal values for the depth and number of trees; summary of experiment
 The important parameters are set, e. g., learning rate=0.3, subsample feature rate=1.0, and other parameters to their default values.
 
  ![](/figures/matrix.jpg)
+ 
  Fig. 3. Normalised confusion matrix (in [%]) of the FL.
  
 ![](/figures/shap1.jpg)
+
   (a) The contribution of significant auDeep features from all class predictions for the XGBoost model (average feature importance).
 ![](/figures/shap2.jpg)
+
   (b) The contribution of significant auDeep features from all class predictions for the FL model (average feature importance).
 
 Fig. 4. The plot sorts the features by the mean of Shapley values for all class predictions and uses the Shapley values to show the average impact on the model output magnitude of the features. Top 10 most impactful features are shown above.
