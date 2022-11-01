@@ -40,10 +40,11 @@ The important parameters are set, e. g., learning rate=0.3, subsample feature ra
  
 ![](/figures/shap1.jpg)
 
-  (a) The contribution of significant auDeep features from all class predictions for the XGBoost model (average feature importance).
+(a) The contribution of significant auDeep features from all class predictions for the XGBoost model (average feature importance).
+  
 ![](/figures/shap2.jpg)
 
-  (b) The contribution of significant auDeep features from all class predictions for the FL model (average feature importance).
+(b) The contribution of significant auDeep features from all class predictions for the FL model (average feature importance).
 
 Fig. 4. The plot sorts the features by the mean of Shapley values for all class predictions and uses the Shapley values to show the average impact on the model output magnitude of the features. Top 10 most impactful features are shown above.
   
