@@ -60,16 +60,3 @@ Fig. 4. The plot sorts the features by the mean of Shapley values for all class 
 Yongzi Yu, Wanyong Qiu, Chen Quan, Kun Qian, Zhihua Wang, Yu Ma, Bin Hu∗, Bjoern W. Schuller and Yoshiharu Yamamoto, “Federated intelligent terminals facilitate stuttering monitoring”, in Proceedings of ICASSP, pp. 1-5, Submitted, October 2022.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
