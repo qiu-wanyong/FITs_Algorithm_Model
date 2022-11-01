@@ -4,24 +4,21 @@ The source code and models for paper "Federated Intelligent Terminals Facilitate
 ## Abstract
 Stuttering is a complicated language disorder. The most common  form of stuttering is developmental stuttering, which begins  in childhood. Early monitoring and intervention are essential  for the treatment of children with stuttering. Automatic  speech recognition technology has shown its great potential  for non-fluent disorder identification, whereas the previous  work has not considered the privacy of users  data. To  this end, we propose federated intelligent terminals for automatic  monitoring of stuttering speech in different contexts.  Experimental results demonstrate that the proposed federated  intelligent terminals model can analyse symptoms of stammering  speech by taking the personal privacy protection into  account. Furthermore, the study has explored that the Shapley  value approach in the federated learning setting has comparable  performance to data-centralised learning.
 
-## Index Terms— Stuttering Monitoring, Federated Learning, Computer Audition, Healthcare
+#### Index Terms— Stuttering Monitoring, Federated Learning, Computer Audition, Healthcare
 
+![](/figures/FL.jpg)
+Fig. 1. Basic structure of the proposed privacy-preserving FL framework.
+ 
 ## Main contributions:
  * We build the horizontal FL framework SecureBoost and construct two federated participants. It is verified that the performance of the FL model is not significantly degraded compared to data-centralised training.
  * XGBoost has flexible portability and precise library. It facilitates FL based on XGBoost to optimize algorithm with minimal resources, which makes it easier to be used in FITs. 
  * FITs could be used for portable monitoring of stuttering. Most importantly, FITs store data locally without collecting the data centrally, which effectively protect personal information.
-
- ![](/figures/fig_fl_framework.pdf)
- Fig. 1. Basic structure of the proposed privacy-preserving FL framework.
  
 ## Results
  * Concentrated learning with XGBoost(Non-Federated) 
   * Federated Learning with XGBoost (Homogeneous SecureBoost)
   
- ![](/figures/XGB_treedepth.eps)
- ![](/figures/XGB_treenumber.eps)
- ![](/figures/SecBoost_treedepth.eps)
- ![](/figures/SecBoost_treenum.eps)
+ ![](/figures/results.jpg)
  Fig. 2. Model performance variation (UAR and UF1 in [%]) between centralised learning and federated learning for multiclassification of stuttering data.
  
 Table 2. Optimal values for the depth and number of trees; summary of experimental results (in [%]).
@@ -35,12 +32,12 @@ Table 2. Optimal values for the depth and number of trees; summary of experiment
 
 The important parameters are set, e. g., learning rate=0.3, subsample feature rate=1.0, and other parameters to their default values.
 
- ![](/figures/fig_matrix.eps)
+ ![](/figures/matrix.jpg)
  Fig. 3. Normalised confusion matrix (in [%]) of the FL.
  
-![](/figures/fig_matrix.eps)
+![](/figures/shap1.jpg)
   (a) The contribution of significant auDeep features from all class predictions for the XGBoost model (average feature importance).
-![](/figures/fig_matrix.eps)
+![](/figures/shap2.jpg)
   (b) The contribution of significant auDeep features from all class predictions for the FL model (average feature importance).
 
 Fig. 4. The plot sorts the features by the mean of Shapley values for all class predictions and uses the Shapley values to show the average impact on the model output magnitude of the features. Top 10 most impactful features are shown above.
