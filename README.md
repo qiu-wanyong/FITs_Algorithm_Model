@@ -10,11 +10,6 @@ Stuttering is a complicated language disorder. The most common  form of stutteri
 
 Fig. 1. Basic structure of the proposed privacy-preserving FL framework.
  
-## Main contributions:
- * We build the horizontal FL framework SecureBoost and construct two federated participants. It is verified that the performance of the FL model is not significantly degraded compared to data-centralised training.
- * XGBoost has flexible portability and precise library. It facilitates FL based on XGBoost to optimize algorithm with minimal resources, which makes it easier to be used in FITs. 
- * FITs could be used for portable monitoring of stuttering. Most importantly, FITs store data locally without collecting the data centrally, which effectively protect personal information.
- 
 ## Results
  * Concentrated learning with XGBoost(Non-Federated) 
   * Federated Learning with XGBoost (Homogeneous SecureBoost)
