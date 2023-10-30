@@ -60,6 +60,6 @@ Fig. 4. The plot sorts the features by the mean of Shapley values for all class 
 [4] Wanyong Qiu, Kun Qian, Zhihua Wang, Yi Chang, Zhihao Bao, Bin Hu, Bjoern W Schuller, and Yoshiharu Yamamoto, A Federated Learning Paradigm for Heart Sound Classification, in Proceedings of the Engineering in Medicine &amp; Biology Society (EMBC). IEEE, 2022, pp. 1045 1048.
 
 ## Cite As
-Yongzi Yu, Wanyong Qiu, Chen Quan, Kun Qian, Zhihua Wang, Yu Ma, Bin Hu∗, Bjoern W. Schuller and Yoshiharu Yamamoto, “Federated intelligent terminals facilitate stuttering monitoring”, in Proceedings of ICASSP, pp. 1-5, Submitted, October 2022.
+Yongzi Yu, Wanyong Qiu, Chen Quan, Kun Qian, Zhihua Wang, Yu Ma, Bin Hu∗, Bjoern W. Schuller and Yoshiharu Yamamoto, “Federated intelligent terminals facilitate stuttering monitoring”, in Proceedings of ICASSP, pp. 1-5, October 2022.
 
 
